@@ -1,5 +1,6 @@
-﻿
+﻿@using DevIO.UI.Site.Data
 @{
     Layout = "_Layout";
 }
-
+@inject IPedidoRepository PedidoRepository
+@PedidoRepository.ObterPedido().Id

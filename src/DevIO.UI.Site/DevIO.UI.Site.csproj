@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
@@ -12,9 +12,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Areas\Pedidos\Data\" />
+    <Folder Include="Areas\Pedidos\Models\" />
     <Folder Include="Areas\Produtos\Data\" />
     <Folder Include="Areas\Produtos\Models\" />
-    <Folder Include="Models\" />
     <Folder Include="wwwroot\lib\" />
   </ItemGroup>
 
